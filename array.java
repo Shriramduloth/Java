@@ -8,7 +8,7 @@ class array {
 
         }
         System.out.println();
-        String1 name[] = { "ram", "sahil", "vaibhav" };
+        String name[] = { "ram", "sahil", "vaibhav" };
         for (int j = 0; j < 3; j++) {
             System.out.println(name[j]);
         }
