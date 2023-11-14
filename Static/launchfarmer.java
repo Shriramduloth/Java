@@ -12,11 +12,12 @@ class farmer {
     }
 
     void input() {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Please mention the amount required");
-        pa = scan.nextInt();
-        System.out.println("Please mention time duration ");
-        td = scan.nextFloat();
+        try (Scanner scan = new Scanner(System.in)) {
+            System.out.println("Please mention the amount required");
+            pa = scan.nextInt();
+            System.out.println("Please mention time duration ");
+            td = scan.nextFloat();
+        }
 
     }
 

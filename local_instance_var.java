@@ -5,7 +5,6 @@ public class local_instance_var {
 
     public static void main(String[] args) {
 
-        int num=9;
 
         local_instance_var obj1 = new local_instance_var();
         local_instance_var obj2 = new local_instance_var();

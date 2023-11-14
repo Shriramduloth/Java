@@ -16,7 +16,7 @@ public static void main(String[] args) {
         Demo.disp1();
         //Demo.disp2();
         Demo d = new Demo();
-        d.disp1();
+       // d.disp1();
         d.disp2();
     }
 }

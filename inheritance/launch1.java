@@ -1,7 +1,6 @@
 package inheritance;
 
 class Human1 {
-    private String name;
     int age;
 
     Human1() {

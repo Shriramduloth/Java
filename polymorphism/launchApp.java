@@ -9,11 +9,12 @@ class rectangle1 {
 
     public void input() {
         System.out.println("calculation of rectangle");
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Please enter the length of rectangle");
-        length = scan.nextFloat();
-        System.out.println("Please enter the breadth of rectangle");
-        breadth = scan.nextFloat();
+        try (Scanner scan = new Scanner(System.in)) {
+            System.out.println("Please enter the length of rectangle");
+            length = scan.nextFloat();
+            System.out.println("Please enter the breadth of rectangle");
+            breadth = scan.nextFloat();
+        }
 
     }
 
@@ -32,9 +33,10 @@ class square1 {
 
     public void input() {
         System.out.println("calculation of square");
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Please enter the length of square");
-        length = scan.nextFloat();
+        try (Scanner scan = new Scanner(System.in)) {
+            System.out.println("Please enter the length of square");
+            length = scan.nextFloat();
+        }
         
     }
 
@@ -53,9 +55,10 @@ class circle1 {
 
     public void input() {
         System.out.println("calculation of circle");
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Please enter the radius of circle");
-        radius = scan.nextFloat();
+        try (Scanner scan = new Scanner(System.in)) {
+            System.out.println("Please enter the radius of circle");
+            radius = scan.nextFloat();
+        }
     
     }
 

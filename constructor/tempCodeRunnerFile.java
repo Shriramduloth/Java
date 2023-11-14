@@ -1,3 +1,0 @@
-package constructor;
-
-class student {

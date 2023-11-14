@@ -30,7 +30,6 @@ public class type_overload {
 
     public static void main(String[] args) {
         type_overload obj = new type_overload();
-        byte b = 3;
         obj.show('P');
     }
 }

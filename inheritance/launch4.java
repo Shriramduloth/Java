@@ -37,6 +37,7 @@ class child4 extends parent4 {
 public class launch4 {
     public static void main(String[] args) {
         child4 c4 = new child4();
-        // child4 c = new child4(10,20);
+        child4 c = new child4(10, 20);
+        
     }
 }
