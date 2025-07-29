@@ -47,6 +47,7 @@ public class reverseString {
         String str1 = "Vaibhav Pardhan";
         String str2 = "";
         String sarr[]=str1.split(" ");
+        List l1 = new List();
         
         for (String A: sarr) {
             for (int i = A.length()-1; i >=0; i--) {
